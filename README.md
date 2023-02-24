@@ -82,7 +82,8 @@ Se pide crear la pantalla que muestra el listado de adopciones:
 15. Cuando la vista está en el estado error, se mostrará un SnackBar con el texto: Error!!
 16. Se deberé usar Hilt como Inyector de Dependencias.
 
-**Diseño**
+**Diseño**  
+
 ![](assets/listado_adopciones.jpeg)
 
 ## Ejercicio 3: Detalle de Adopciones
@@ -104,7 +105,8 @@ Se pide crear la pantalla que muestra el detalle de adopciones.
 13. Cuando la vista está en el estado error, se mostrará un SnackBar con el texto: Error!!
 14. El uso de Hilt es opcional.
 
-**Diseño**
+**Diseño**  
+
 ![](assets/detalle_adopcion.jpeg)
 
 ## Ejercicio 4: Publicación de la app
