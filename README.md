@@ -83,7 +83,7 @@ Se pide crear la pantalla que muestra el listado de adopciones:
 16. Se deberé usar Hilt como Inyector de Dependencias.
 
 **Diseño**
-![](assets/listado_adopciones.png)
+![](assets/listado_adopciones.jpeg)
 
 ## Ejercicio 3: Detalle de Adopciones
 
@@ -105,7 +105,7 @@ Se pide crear la pantalla que muestra el detalle de adopciones.
 14. El uso de Hilt es opcional.
 
 **Diseño**
-![](assets/detalle_adopcion.jpg)
+![](assets/detalle_adopcion.jpeg)
 
 ## Ejercicio 4: Publicación de la app
 
