@@ -7,44 +7,38 @@ los objetivos.
 
 Los objetivos están agrupados en:
 
-1. [Aplicaciones Móviles](https://iesam-dam.github.io/programacion-multimedia-dispositivos-moviles/evaluation/ra-apps.html)
-   .
-2. [Android Studio](https://iesam-dam.github.io/programacion-multimedia-dispositivos-moviles/evaluation/ra-androidstudio.html)
-   .
-3. [Arquitectura](https://iesam-dam.github.io/programacion-multimedia-dispositivos-moviles/evaluation/ra-arquitectura.html)
-   .
-4. [User Interface(UI)](https://iesam-dam.github.io/programacion-multimedia-dispositivos-moviles/evaluation/ra-ui.html)
-   .
-5. [Multimedia](https://iesam-dam.github.io/programacion-multimedia-dispositivos-moviles/evaluation/ra-multimedia.html)
-   .
-6. [Publicación App](https://iesam-dam.github.io/programacion-multimedia-dispositivos-moviles/evaluation/ra-publicacion.html)
-7. [Calidad del código](https://iesam-dam.github.io/programacion-multimedia-dispositivos-moviles/evaluation/ra-extras.html)
-
-Si en la prueba existiera algo que no se haya visto en clase o esté fuera de los objetivos no será
-calificado y lo dará el profesor.
+1. Aplicaciones Móviles
+2. Android Studio
+3. Arquitectura
+4. User Interface(UI)
+5. Multimedia
+6. Publicación App
+7. Calidad del código
 
 ## Requisitos para la realización de la prueba
 
 - La prueba tiene una duración de 4 horas. Una vez terminada la prueba, se quitarán los privilegios
   al usuario para evitar modificaciones.
-- La prueba se hará sobre el
-  repositorio: [Prueba PMDM Curso 22/23 Marzo](https://github.com/IESAM-DAM/ex_22_23_pmdm_marzo.git)
+- La prueba se hará sobre este repositorio.
 - La prueba se entrega a través de una Pull Request por cada uno de los ejercicios solicitados. Si
   no se entrega una Pull Request se considerará incompleta pues existe un objetivo sobre la
   documentación a través de Pull Request.
 - En la Pull Request pondrá como revisor al profesor.
 - **No se hará nada de la capa de datos** todo lo necesario de esta capa está ya en el proyecto.
-- Los recursos necesarios: iconos, imágenes, etc. lo dará el profesor.
+- Los iconos que se dan están en la carpeta assets. El resto de iconos los tiene que añadir el
+  alumno (recuerda que no puedes buscar por Google).
 - Se deberá seguir una arquitectura Clean Architecture: presentation, domain y data.
 - Se podrán crear todas las funciones de extensión o complementarias que ayuden en la mejora y
   calidad del código.
 
-Si se incumple algunos de los requisitos descritos la prueba se considerará como **No entregada**.
+Si se incumple algunos de los requisitos descritos la prueba se considerará como **NO APTA**.
 
-## Contexto de  los ejercicios
+## Para todos los ejercicios
 
-Se pide realizar una aplicación que muestre un listado de adopciones. Además, el usuario podrá
-obtener más información por cada una de las adopciones y realizar algunas otras acciones: compartir.
+- Se usa Either.
+- Se usa Hilt.
+- Se usan estilos.
+- No hace falta añadir ningún tema.
 
 ## Ejercicio 1: Estructura de la aplicación
 
@@ -82,7 +76,7 @@ Se pide crear la pantalla que muestra el listado de adopciones:
 15. Cuando la vista está en el estado error, se mostrará un SnackBar con el texto: Error!!
 16. Se deberé usar Hilt como Inyector de Dependencias.
 
-**Diseño**  
+**Diseño**
 
 ![](assets/listado_adopciones.jpeg)
 
@@ -105,7 +99,7 @@ Se pide crear la pantalla que muestra el detalle de adopciones.
 13. Cuando la vista está en el estado error, se mostrará un SnackBar con el texto: Error!!
 14. El uso de Hilt es opcional.
 
-**Diseño**  
+**Diseño**
 
 ![](assets/detalle_adopcion.jpeg)
 
@@ -122,6 +116,7 @@ Se pide publicar el proyecto en el Play Store.
 **Ejecución de una Coroutine en el ViewModel**
 
 ```
+Librería: 
 viewModelScope.launch{
    // Código aquí
 }

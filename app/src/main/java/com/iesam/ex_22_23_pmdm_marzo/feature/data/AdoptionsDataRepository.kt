@@ -1,7 +1,5 @@
 package com.iesam.ex_22_23_pmdm_marzo.feature.data
 
-import android.R
-import android.content.Context
 import com.iesam.ex_22_23_pmdm_marzo.app.Either
 import com.iesam.ex_22_23_pmdm_marzo.app.ErrorApp
 import com.iesam.ex_22_23_pmdm_marzo.app.mock.obtainAdoptionDetail
