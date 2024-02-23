@@ -11,6 +11,6 @@ class AdoptionsFragment: Fragment(R.layout.adoptions_fragment) {
 
     fun OnCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
-        val recyclerView: RecyclerView =
+
     }
 }
