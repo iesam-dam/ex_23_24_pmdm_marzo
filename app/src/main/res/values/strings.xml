@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Ex_22_23_PMDM_marzo</string>
+    <string name="title">Adopciones</string>
+    <string name="title_detail">Adopta a Name</string>
+    <string name="title_animal_details">Detalles del animal</string>
+    <string name="label_sex">Sexo:</string>
+    <string name="label_date">Fecha de Nacimiento:</string>
+    <string name="label_raza">Raza:</string>
+    <string name="label_tamano">Tamaño:</string>
 </resources>
