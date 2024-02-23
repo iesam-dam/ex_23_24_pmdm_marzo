@@ -8,7 +8,7 @@ import com.iesam.ex_22_23_pmdm_marzo.feature.data.AdoptionsDataRepository
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.adoptions_view)
 
         val repo = AdoptionsDataRepository()
         repo.getAdoptions()
