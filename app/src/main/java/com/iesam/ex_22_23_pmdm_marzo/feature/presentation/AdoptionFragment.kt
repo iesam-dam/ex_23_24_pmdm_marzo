@@ -17,8 +17,6 @@ import dagger.hilt.android.AndroidEntryPoint
 class AdoptionFragment: Fragment() {
 
     private var _binding: AdoptionFeedFragmentBinding? = null
-    // This property is only valid between onCreateView and
-// onDestroyView.
     private val binding get() = _binding!!
 
     private val adoptionAdapter = AdoptionAdapter()
