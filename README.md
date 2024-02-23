@@ -61,20 +61,19 @@ Se pide crear la pantalla que muestra el listado de adopciones:
 2. El diseño será el que se adjunta. La vista debe ser construida de forma eficiente.
 3. Deberá existir una toolbar.
 4. Al hacer click en una de las adopciones, se mostrará el detalle de la adopción seleccionada.
-5. Se deberá añadir una animación entre la navegación del listado de adopciones y el detalle.
-6. Al pulsar sobre el icono de corazón de la Toolbar, se mostrará un SnackBar con el texto: Favorito
+5. Al pulsar sobre el icono de corazón de la Toolbar, se mostrará un SnackBar con el texto: Favorito
    seleccionado.
-7. Al pulsar sobre el icono de compartir que se muestra en cada uno de los items de adopciones,
+6. Al pulsar sobre el icono de compartir que se muestra en cada uno de los items de adopciones,
    mostrará un SnackBar con el texto: compartir.
-8. Es necesario el uso de dimens, strings y estilos.
-9. La comunicación con los casos de uso se hará mediante el patrón MVVM.
-10. La comunicación entre el ViewModel y la vista se hará mediente LiveData.
-11. Los casos de uso se ejecutarán con Coroutines (lo da el profesor).
-12. La imagen de las adopciones se cargará por URL.
-13. Se deberán gestionar los tres estados de la vista: loading, error y datos.
-14. Cuando la vista está en el estado loading, se mostrará un SnackBar con el texto: Cargando....
-15. Cuando la vista está en el estado error, se mostrará un SnackBar con el texto: Error!!
-16. Se deberé usar Hilt como Inyector de Dependencias.
+7. Es necesario el uso de dimens, strings y estilos.
+8. La comunicación con los casos de uso se hará mediante el patrón MVVM.
+9. La comunicación entre el ViewModel y la vista se hará mediente LiveData.
+10. Los casos de uso se ejecutarán con Coroutines (lo da el profesor).
+11. La imagen de las adopciones se cargará por URL.
+12. Se deberán gestionar los tres estados de la vista: loading, error y datos.
+13. Cuando la vista está en el estado loading, se mostrará un SnackBar con el texto: Cargando....
+14. Cuando la vista está en el estado error, se mostrará un SnackBar con el texto: Error!!
+15. Se deberé usar Hilt como Inyector de Dependencias.
 
 **Diseño**
 
