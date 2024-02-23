@@ -47,7 +47,7 @@ Se pide crear la estructura de la aplicación:
 1. Añadir las librerías que se crean oportunas.
 2. La aplicación tendrá una actividad principal y dos fragmentos. Esta actividad tendrá el
    FragmentContainer donde se cargarán los fragmentos.
-3. El fragmento a cargar por defecto es el de Listado de adopciones. Esto se establecerá con el
+3. El fragmento a cargar por defecto es el de Listado de adopciones. (Opcional)Esto se establecerá con el
    componente de Navegación.
 4. El fragmento AdoptionsFragment se encargará de mostrar el listado de adopciones.
 5. El fragmento AdoptionDetailFragment mostrará el detalle de la adopción.
